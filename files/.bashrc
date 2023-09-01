@@ -8,6 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[ \w ] '
+# [ ~ ]
 
 alias cls="clear"
 alias fetch="cls && pfetch"

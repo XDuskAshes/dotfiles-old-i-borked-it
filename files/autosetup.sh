@@ -2,7 +2,7 @@
 
 # move .bashrc's
 cd ~
-git clone https://github.com/XDuskAshes/dusk-dotfiles.git
+echo "Assuming everything's already been git clone'd"
 cd dusk-dotfiles/files
 rm ~/.bashrc
 mv .bashrc ~/.bashrc

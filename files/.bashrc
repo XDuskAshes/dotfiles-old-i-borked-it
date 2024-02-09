@@ -2,7 +2,6 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything
 PS1='[ \w ] '
 # [ ~ ]
 
@@ -16,3 +15,5 @@ alias sync="sudo pacman -Sy"
 alias lg="lazygit"
 alias ls="ls -la"
 alias ttyclock="tty-clock -t -b -B -C 5 -n -s -f %m-%d-%Y"
+alias make-targz="tar -czvf"
+alias extract-targz="tar -xzvf"

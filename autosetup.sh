@@ -50,5 +50,6 @@ git clone https://github.com/XDuskAshes/dusk-dotfiles.git ~/.dotfiles/
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/neofetch/config.conf ~/.config/neofetch/config.conf
 ln -s ~/.dotfiles/for-fun/spinner.sh ~/spinner.sh # This is for giggles, lol
+ln -s ~/.dotfiles/i3/config ~/.config/i3/config
 
 echo "Done all."

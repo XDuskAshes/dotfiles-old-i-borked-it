@@ -17,3 +17,5 @@ alias ls="ls -la"
 alias ttyclock="tty-clock -t -b -B -C 5 -n -s -f %m-%d-%Y"
 alias make-targz="tar -czvf"
 alias extract-targz="tar -xzvf"
+
+eval "$(zoxide init bash)" # Testing zoxide. <https://github.com/ajeetdsouza/zoxide>

@@ -78,12 +78,6 @@ bindsym $mod+shift+n exec poweroff
 bindsym $mod+d exec rofi -show drun
 bindsym $mod+ctrl+d exec rofi -show run
 
-# polybar kill
-bindsym $mod+shift+v exec killall polybar
-
-# edex-ui, i use for aesthetics
-bindsym $mod+p exec edex-ui
-
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -211,5 +205,11 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always feh --bg-fill /home/dusk/bg/sunset_martinkra_instagram.jpg
+bar {
+	status_command /usr/bin/bumblebee-status \
+		-m cpu memory time pipewire network \
+		-p time.format="%I:%M:%S %p" \
+		-t solarized-powerline
+	position top
+}
+exec_always feh --bg-fill /home/dusk/Downloads/bg.jpg

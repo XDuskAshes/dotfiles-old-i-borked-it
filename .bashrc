@@ -19,5 +19,6 @@ alias ttyclock="tty-clock -t -b -B -C 5 -n -s -f %m-%d-%Y"
 alias make-targz="tar -czvf"
 alias extract-targz="tar -xzvf"
 alias sh-execable="sudo chmod +x"
+alias vim="nvim" # I like nvim a lot.
 
 eval "$(zoxide init bash)" # For Zoxide. <https://github.com/ajeetdsouza/zoxide>

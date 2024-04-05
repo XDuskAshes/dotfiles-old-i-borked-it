@@ -207,7 +207,7 @@ bindsym $mod+r mode "resize"
 
 bar {
 	status_command /usr/bin/bumblebee-status \
-		-m cpu memory time pipewire network \
+		-m cpu memory time pipewire network spotify aur-update arch_update \
 		-p time.format="%I:%M:%S %p" \
 		-t solarized-powerline
 	position top

@@ -15,10 +15,11 @@ alias sync="sudo pacman -Sy"
 alias lg="lazygit"
 alias ls="ls --color=auto -hsa"
 alias grep="grep --color=auto"
-alias ttyclock="tty-clock -t -b -B -C 5 -n -s -f %m-%d-%Y"
+alias ttyclock="tty-clock -tbB -C 5 -nsf %m-%d-%Y"
 alias make-targz="tar -czvf"
 alias extract-targz="tar -xzvf"
 alias sh-execable="sudo chmod +x"
 alias vim="nvim" # I like nvim a lot.
+alias code-root='sudo code --no-sandbox'
 
 eval "$(zoxide init bash)" # For Zoxide. <https://github.com/ajeetdsouza/zoxide>

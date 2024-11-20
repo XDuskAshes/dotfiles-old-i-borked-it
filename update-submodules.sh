@@ -6,4 +6,6 @@ git pull origin main
 cd ..
 git add nvim
 git commit -m "[submodule] Update nvim" -m "Done automatically with update-submodules.sh on $(date)"
+
+# Push all submodule commits
 git push -u origin main

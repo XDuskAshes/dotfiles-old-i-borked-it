@@ -23,7 +23,7 @@ HY_OLD_COMMIT=$(git rev-parse HEAD)
 git pull origin main
 HY_NEW_COMMIT=$(git rev-parse HEAD)
 
-if [ "$OLD_COMMIT" == "$NEW_COMMIT" ]; then
+if [ "$HY_OLD_COMMIT" == "$HY_NEW_COMMIT" ]; then
     echo "Skipping hyprconf: already latest"
     echo "Value of HY_OLD_COMMIT: $HY_OLD_COMMIT"
     echo "Value of HY_NEW_COMMIT: $HY_NEW_COMMIT"

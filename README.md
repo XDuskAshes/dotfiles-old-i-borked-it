@@ -2,27 +2,6 @@
 
 All my dotfiles for the world to see.
 
-(Note: This repository is not constantly indicative of my current setup. I experiment with things a lot, and add them when I feel like they're "worthy", as it were.)
+Or it used to be!
 
-`tree` view:
-
-```
-.
-├── fastfetch
-│   └── config.jsonc
-├── fish
-│   ├── conf.d
-│   │   └── git.fish
-│   ├── config.fish
-│   ├── fish_variables
-│   └── functions
-│       └── fish_prompt.fish
-├── for-fun
-│   ├── readme.txt
-│   └── spinner.sh
-├── neofetch
-│   └── config.conf
-├── nvim
-├── README.md
-└── update-submodules.sh
-```
+I borked it and am too tired to get myself tied in miles of `git` nonsense so [go to the new one!](https://github.com/XDuskAshes/dotfiles)
